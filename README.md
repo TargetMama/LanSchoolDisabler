@@ -10,3 +10,13 @@ The script then creates a while loop that continues to execute until the script 
 
 # Why does it work?
 LanSchool is designed to run without administrative privileges to minimize the risk of exploitation by malware or other threats that might have access to an administrative account. By running with standard user privileges, LanSchool has limited access to system resources and can only perform tasks that the user account is authorized to perform. This reduces the potential for unintended or malicious actions that could harm the system or compromise user privacy. Additionally, running without administrative privileges makes it easier to deploy and manage LanSchool across large networks without the need for administrative intervention on every computer. It also makes it easier for other software to terminate associated processes that run with or along it.
+
+# How do I use it?
+To run the PowerShell script in the File Explorer, go to the folder where the script is located. Usually this is the Downloads folder. Right-click on the script file and select "Run with PowerShell" from the context menu. If you do not see this option, you can hold down the Shift key and right-click to see the "Run with PowerShell" option.
+
+<img src="https://github.com/TargetMama/LanSchoolDisabler/blob/7e3dbab4ec7e5bf6d7dc0b7510d9883e1ccb4cf2/readme_resources/smartscreen.png" width="200" />
+
+If you see a security warning prompt, click "Run" to allow the script to run.
+
+# How do I stop it?
+To stop the script from running, right-click on the taskbar icon for the script, and click the "Close window", or "Close all windows" button. Another method you can do is hovering over the icon, and clicking the X icon in the top right corner. You can also just logout or restart your computer.
